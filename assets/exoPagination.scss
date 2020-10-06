@@ -1,0 +1,40 @@
+body{
+    padding: 30px;
+}
+
+h1{
+    text-align: center;
+}
+
+.contenaire{
+    display: inline-block;
+    margin-left: 80px;
+    margin: 80px; 
+    padding: 30px;
+  
+    a{
+        color: dimgrey;
+        float: left;
+        padding: 10px 10px;
+        text-decoration: none;
+        border:1px solid;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    a:hover{
+        background-color:dodgerblue ;
+    }
+}
+
+.not-active{
+    opacity: 0.4;
+    text-decoration: none;
+    cursor: default;
+    pointer-events: none;
+}
+
+
+
+
+
+
